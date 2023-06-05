@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.top {
+    background-color: #1F2937;
+    color: white;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    list-style: none;
+}
+
+.sign-up {
+    display: flex;
+}
